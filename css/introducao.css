@@ -30,13 +30,13 @@
     text-align: center;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 400px) {
   .introducao h1 {
     font-size: 3rem;
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 400px) {
   .introducao {
     grid-template-columns: 1fr 1fr;
     gap: 40px;
