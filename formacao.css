@@ -1,0 +1,123 @@
+ul {
+  list-style: none;  /* Remove os marcadores/bolinhas */
+  padding: 0;        /* Remove o padding padrão (principal responsável pelo recuo) */
+  margin: 0;         /* Remove a margem padrão */
+}
+
+.formacao {
+  max-width: 900px;
+  padding: 20px 20px;
+  margin: 0 auto;
+}
+
+.formacao-container {
+  max-width: 900px;
+  padding: 20px 20px;
+  margin: auto;
+  display: grid;
+  justify-items: center;
+  gap: 1px;
+  position: relative;
+}
+
+.formacao .subtitulo {
+  color: #181817e8;
+  text-align: center;
+  font-size: 57px;
+  margin: auto;
+}
+
+.formacao-texto {
+  font-size: 1.5rem;
+  line-height: 1.33;
+  max-width: 40ch;
+  margin-bottom: 10px;
+  color: #a3a3a3;
+}
+
+.formacao-texto strong {
+  color: #ffffff;
+}
+
+.faculdade-lista {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+
+.faculdade {
+  flex: 1;
+  background: #fcf6f6b6;
+  padding: 20px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+}
+
+.faculdade-tipo {
+  font-size: 17px;
+  text-transform: uppercase;
+  color: #788125fa;
+  margin-bottom: 10px;
+}
+
+.faculdade-curso {
+  flex: 1;
+  font-size: 19px;
+  line-height: 1.4;
+  margin-bottom: 20px;
+  position: relative;
+  color: #525252;
+}
+
+.faculdade-curso::before {
+  content: '';
+  display: block;
+  width: 5px;
+  height: 30px;
+  background: linear-gradient(#f8b729, #788125fa);
+  position: absolute;
+  left: -24px;
+}
+
+.faculdade-instituicao {
+  font-size: 1.125rem;
+  color: #788125fa;
+}
+
+.cursos {
+  color: #181817e8;
+  text-align: center;
+
+  padding: 1%;
+}
+
+.formacao-extra h3 {
+  line-height: 1.2;
+  color: #788125fa;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  position: relative;
+  font-size: 25px;
+}
+
+.formacao-extra li {
+  width: 53%;
+  font-size: 19px;
+  line-height: 1.1;
+  margin-bottom: 4px;
+  display: flex;
+  color: #181817e8;
+  padding-left: 20%;
+  padding-top: 2%;
+  justify-content: space-between;
+}
+
+.formacao-extra span {
+  color: #525252;
+  border-radius: 4px;
+  background: #f8b729;
+  padding: 5px 5px;
+  font-size: 13px;
+}
